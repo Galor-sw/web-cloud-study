@@ -1,0 +1,250 @@
+    *{margin: 0; padding:0; }
+
+    header, main, footer, nav, aside, section   {
+        display: block;
+    }
+    html{
+        width: 1440px;
+    }
+    
+    header{
+        background-color: #ED4C5C;
+        padding-left: 49px ;
+        padding-top: 60.8px;
+        height: 612px;
+        width:100%
+    }
+    a {
+        text-decoration: none;
+    }
+    a.Red {
+        color:  #ED4C5C;
+    }
+    a.White{
+        color:  #FFFFFF;
+    }
+    a.White:hover{
+        color: #c0baba;
+    }
+
+    #logo {
+        background-image: url("../images/favicon.ico");
+        padding-left: 6.45px;
+        width: 24.65px;
+        height: 17.4px;
+        display: block;
+        background-repeat: no-repeat;
+        background-size: contain;
+    }
+
+    #rectangle {
+        padding-top: 40.72px;
+        /* max-width: 100%; */
+        max-width: 350px;
+        /* max-height: 248.86; */
+        display: inline-block;
+        border-radius: 6px;
+    }
+
+    #logo span {
+        color:  #FFFFFF;
+        display: inline-block;
+        line-height: 2.8px;
+        height: 22px;
+        width: 152px;
+        padding-left: 34.55px;
+        font-size: 18px;
+    }
+
+        img.topImg{
+            width: 445px;
+            height: 311px;
+        }
+    nav.topHeader{
+        font-size: 14px;
+        padding-top: 50.8px;
+        width: 445px;
+        align-items: center;
+        line-height: 17px;
+        word-spacing: 12px;
+    }
+
+    img.topImg{
+        padding-top: 45px;
+        padding-left: 40px;
+    }
+
+    header button{
+        background-color: #FFFFFF;
+        font-size: 14px;
+        color: #ED4C5C;
+        line-height: 50px;
+        margin-top: 45px;
+        margin-left: 1px;
+        width: 160px;
+        height: 50px;
+        border-radius: 0px;
+        border: #FFFFFF;
+    }
+
+    button a {
+        color: #ED4C5C;
+
+    }
+
+
+    section.inMain {
+        height: 657px;
+        padding-left: 50px;
+    }
+    
+
+    h2.firstSection{
+        padding-top: 56px;
+        width: 445px;
+        font-size: 36px;
+        font-weight: 600;
+        line-height: 43px;
+    }
+
+    p.firstSection {
+        padding-top: 30px;
+        width: 445px;
+        height: 83px;
+        font-size: 14px;
+        line-height: 140%;
+        text-align: justify;
+    }
+
+    h2.learn{
+        padding-top: 20px;
+        font-size: 14px;
+        color: #ED4C5C;
+        width: 71px;
+        height: 26.28px;
+
+    }
+
+
+
+    
+    a.firstSection{
+        display: inline-block;
+        padding-top: 20px;
+    }
+
+    div.images{
+        display: flex;
+    }
+
+    .VideoLink{
+    width: 350px;
+    height: 40px;
+    margin-top: -15px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 30px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    text-align: center;
+    }
+
+    a.VideoLink.Sec{
+        margin-left: 30px;
+    }
+    
+    .parent{
+        display: flex;
+        flex-direction: column;
+    }
+
+    img.firstSection{
+        max-width: 350px;
+        height: 248.86px;
+        padding-top: 40.72px;
+        border-radius: 8px;
+    }
+    img.firstSection.sec{
+        padding-left: 30px;
+    }
+
+    section.inMain.tech{
+        background-color: #F5F4F4;
+        padding-left: 50px;
+    }
+
+    h2.Tech{
+        padding-top: 57px;
+        font-size: 36px;
+        width: 300px;
+        height: 47px;
+        display: inline-block;
+    }
+
+    a.rectTech{
+        margin-top: 56px;
+        width: 255px;
+        height: 226px;
+        background-color: #FFFFFF;
+        display: inline-block;
+    }
+
+    a.rectTech.sec{
+        margin-left: 30px;
+    }
+    footer{
+        height: 80px;
+        background-color: #ED4C5C;
+        padding-left: 53px ;
+    }
+    
+    #inRect{
+        width: 47.68px;
+        height: 59.3px;
+        margin-left: 103.15px;
+        margin-top:68.35px;
+    }
+    h6{
+        text-align: center;
+        line-height: 22px;
+        color:#101010;
+        font-size: 18px;
+    }
+
+    p.SecRect{
+        text-align: center;
+        height: 51px;
+        font-size: 12px;
+        color:#000000;
+        
+    }
+    a.innerFooter{
+        width: 28px;
+        height: 28px;
+        display: inline-block;
+        padding-top: 31px;
+    }
+
+    a.innerFooter.sec{
+        padding-left: 25px;
+    }
+
+    p.Afooter{
+        padding-top:29px ;
+        padding-left: 80px;
+        display: inline-block;
+        color: #FFFFFF;
+        font-size: 24px;
+        line-height: 29px;
+    }
+
+
+    #icon{
+        width: 28px;
+        height: 28px;
+    }
+    body {
+        font-family: 'Lato';
+    }
+
+
+
+

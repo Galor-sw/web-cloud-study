@@ -1,0 +1,12 @@
+
+body {
+   background-color: #2659a5;
+   font-family: Arial;
+}
+h1 {
+   background-color:darkgoldenrod;
+   color: crimson;
+   margin: 0px;
+   padding: 100px;
+}
+* {margin: 0; padding:0 ;}
