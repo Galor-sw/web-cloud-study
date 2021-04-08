@@ -1,12 +1,209 @@
+* {margin :0; padding:0;}
 
-body {
-   background-color: #2659a5;
-   font-family: Arial;
+header, nav, footer, body {
+    display: block;
+    width: 100%;
 }
-h1 {
-   background-color:darkgoldenrod;
-   color: crimson;
-   margin: 0px;
-   padding: 100px;
+#wrapper{
+width: 1000px;
+margin: 0px auto;
 }
-* {margin: 0; padding:0 ;}
+
+header { 
+    position: relative;
+    height: 192px;
+    background-color:  #e1e1e1;
+    text-align: center;
+}
+
+#logo{
+    background-image: url(../images/logo.png);
+    position: absolute;
+    margin: 0px auto;
+    top: 59px;
+    width: 83px;
+    height: 83px;
+}
+
+nav{
+    background-color: black;
+    
+}
+li{
+    list-style: none;
+}
+
+a{
+    display: inline-block;
+    text-decoration: none;
+    color: floralwhite;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 20px;
+}
+
+.Layout1 {
+    height: 62px;
+}
+
+.mainLo1 {
+    height: 696px;
+}
+
+.col{
+    
+    width: 233px;
+    float:left;
+    list-style: none;
+}
+
+.col a{
+    margin-top: 11px;
+    height: 40px;
+    line-height: 1.9;
+    text-align: center;
+}
+.hov a:hover{
+    background-color: #808080;
+}
+.col.first{
+    padding-left: 39px;
+}
+.mark a{
+    background-color: dodgerblue;
+}
+
+.col.Main{
+    height: 100%;
+}
+
+.Rectangle{
+    position: relative;
+    height: 235px;
+    width: 235px;
+}
+
+.Rectangle.Top{
+    margin-top: 24px;
+}
+
+.Rectangle.Bottom{
+    margin-top: 437px;
+}
+.Square{
+    position: absolute;
+    height: 100px;
+    width: 100px;
+}
+
+.RedSquare{
+    background-color: #ba1818;
+}
+.Square.TR{
+    right: 0px;
+}
+
+.Square.BR{
+    right: 0px;
+    bottom: 0px;
+}
+
+.Square.BL{
+    bottom: 0px;
+}
+
+aside {
+    position: relative;
+    width: 244px;
+    height: 100%;
+    background-color: #f6f6f6;
+    float:right;
+}
+
+footer {
+    height: 50px;
+    background-color:#e1e1e1;
+}
+
+.sider{
+    position: absolute;
+    top: 200px;
+    left: 81px;
+    height: 59px;
+    width: 148px;
+    background-color: #ba1818;
+}
+
+
+/* layout2 */
+#Layout2{
+    height: 1000px;
+}
+.nav2{
+    width: 146px;
+    height:1000px;
+    background-color: black;
+    float: left;
+}
+ .Lo2{
+     float: left;
+ }
+.navLo1{
+    line-height: 3;
+    height: 59px;
+    width: 100%;
+}
+
+.col2{
+    width: 257px;
+    height: 1000px;
+    background-color: #f6f6f6;
+}
+
+.col3{
+    position: relative;
+    width: 597px;
+    height: 100%;
+}
+
+.RectLo2{
+    margin-top: 510px;
+    margin-left: 11px;
+}
+.GreenRect{
+    background-color: #1b8517;
+}
+
+.Rect{
+    position: absolute;
+    width: 270px;
+}
+.Rect.TLLo2{
+    height: 324px;
+    top: 22px;
+    left: 22px;
+}
+
+.Rect.TRLo2{
+    height: 254px;
+    top: 22px;
+    right: 19px;
+}
+
+.Rect.BLLo2{
+    height: 412px;
+    top: 370px;
+    left: 22px;
+}
+
+.Rect.BRLo2{
+   height: 364px;
+   top: 300px;
+   right: 19px;
+}
+
+#Layout2 footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+}
