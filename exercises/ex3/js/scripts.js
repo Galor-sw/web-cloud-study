@@ -41,17 +41,18 @@ function getColorCode() {
     var myColor = getColorCode();
         artcleObj.id = initId ;
         artcleObj.style.backgroundColor = myColor;
+        if(totalRect-1 == 0) {
+            artcleObj.className="firstRect3";
+            artcleObj.innerHTML="<div class='plus' onclick='rectangle()'></div>";
+        }
+        else {
         artcleObj.className = "normalRect3";
-            if(totalRect-1 == 0) {
-                artcleObj.innerHTML='<div class="plus" onclick="rectangle()"></div>';
-            }
-            else {
                 artcleObj.setAttribute('onclick','changeBackground("'+initId+'")');
+                if((totalRect != 0) && (totalRect %3 == 0)) {
+                    artcleObj.innerHTML="<div class='star'></div>";
+                }
             }
-            if((totalRect != 0) && (totalRect %3 == 0)) {
-                artcleObj.innerHTML='<div class="star"></div>';
-            }
-    
+                
     var appendRect = function() {
         document.getElementsByTagName('main')[0].appendChild(artcleObj);
         }
