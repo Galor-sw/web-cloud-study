@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Galor first form</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <form action="http://se.shenkar.ac.il/teach/web1/2021/get_form3.php" method="get" autocomplete="off"
+    onsubmit="return checkform()">
+    
+    <label for="fullName1">Full Name: </label>
+    <input type="text" id="fullName1" name="fullName" pattern="(?=^.{0,40}$)^[a-zA-Z-]+\s[a-zA-Z-]+$" required><br>
+    
+    <label>Password:
+        <input type="password" id="password1" name="pass" pattern="^[a-zA-Z]{8,}$" required>
+        </label><br>
+        
+        <label>Email:
+            <input type="email" name="mail" required>
+        </label><br>
+        
+        <label>Website:
+            <input type="url" name="website">
+        </label><br>
+        
+        <label>Phone:
+            <input type="tel" id="phoneNumber" name="phone" minlength="9" maxlength="10" pattern="^[0-9]*$" required>
+        </label><br>
+        
+        <label>Coffee:
+            <input type="number" name="coffee">
+        </label><br>
+        
+        <label>Temperature:
+            <input type="range" name="temper">
+        </label><br><br>
+        
+        <label>Address:<br>
+            <textarea name="address" rows="3" cols="30"></textarea>
+        </label><br>
+        
+        <span>Interests:</span><br>
+        <label>1: coding
+            <input type="checkbox" name="interests[]" value="interest1">
+        </label>
+        <label>2: debuging
+            <input type="checkbox" name="interests[]" value="interest2">
+        </label>
+        <label>3: uml design
+            <input type="checkbox" name="interests[]" value="interest3">
+        </label>
+        <label>4: uml implementation
+            <input type="checkbox" name="interests[]" value="interest4">
+        </label><br>
+        <p id="interest-error" class="invalid"></p>
+        
+        <span>Gender:</span><br>
+        <label>Male
+            <input type="radio" name="gender" value="male" checked>
+        </label>
+        <label>Female
+            <input type="radio" name="gender" value="female">
+        </label><br>
+        
+        <label>Age:<br>
+            <select name="age" required>
+                <option value="10">18</option>
+                <option value="20">19</option>
+                <option value="30" selected>20</option>
+                <option value="40">21</option>
+                <option value="40">22</option>
+                <option value="40">23</option>
+                <option value="40">24</option>
+            </select>
+        </label><br>
+        
+        <input type="submit" value="send form">
+    </form>
+    <script src="js/scripts.js"></script>
+</body>
+
+</html>
+
+
+<!-- get, post, delete, put-->
