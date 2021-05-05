@@ -140,7 +140,7 @@ footer {
     width: 148px;
     background-color: #ba1818;
 }
-
+/*-----------------------------------------------------------------------------------------------------*/
 #Layout2 {
     height: 1000px;
 }
@@ -235,8 +235,6 @@ footer {
     background-image: url(../images/pic_Rect.jpg);
 }
 .mainLo3 {
-    display: flex;
-    flex-wrap: wrap;
     display: flex;
     flex-wrap: wrap;
     margin: 0px auto;
