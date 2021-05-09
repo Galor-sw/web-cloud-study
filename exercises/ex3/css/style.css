@@ -54,7 +54,12 @@ a{
     
 }
 
-.mainLo1 {
+.mainLo1{
+    display: flex;
+}
+.mainPart{
+    position: relative;
+    width: 699px;
     height: 696px;
 }
 
@@ -85,17 +90,19 @@ a{
 }
 
 .Rectangle {
-    position: relative;
+    position: absolute;
     height: 235px;
-    width: 235px;
+    width: 233px;
 }
 
 .Rectangle.Top {
-    margin-top: 24px;
+    left: 39px;
+    top: 24px;
 }
 
 .Rectangle.Bottom {
-    margin-top: 437px;
+    top: 437px;
+    right: 0px;
 }
 .Square {
     position: absolute;
@@ -148,7 +155,11 @@ footer {
     width: 146px;
     height:1000px;
     background-color: black;
-    float: left;
+    clear: both;
+}
+
+.nav2 li a{
+    padding-left: 15px;
 }
 
  .mainLo2 {

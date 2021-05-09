@@ -9,7 +9,7 @@ function init(){
         }
 }
 function AddRectangle() {
-        var Rect = new rectangle();
+        var Rect = rectangle();
 };
 
 function changeBackground(idToChange){
